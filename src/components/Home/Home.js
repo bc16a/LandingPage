@@ -11,7 +11,6 @@ function Home() {
         if(email.includes("@")){
             localStorage.setItem('email',JSON.stringify(email))
             setErro(false)
-            history.push('./register')
         }else{
             setErro(true)
         }       
