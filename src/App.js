@@ -1,6 +1,8 @@
-import Routes from "./router";
 
+import Routes from "./router";
+  
 function App() {
+
   return (
     <>
          <Routes/>
